@@ -72,7 +72,7 @@ div {
 
 /* Styles for the information section */
 .information-section {
-  padding-bottom: 80px;
+  padding-bottom: 112px;
 }
 .info-heading{
   text-align: center;
@@ -103,4 +103,30 @@ div {
 
 .info-text {
   padding: 8px 0 0 0;
+}
+
+/* Styles for the quotes section */
+.quotes-section {
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 380px;
+  flex-direction: column;
+}
+
+.quote {
+  width: 800px;
+}
+
+.quotes-text {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.quote-author {
+  text-align: right;
+  font-weight: 700;
+  font-size: 22px;
 }
