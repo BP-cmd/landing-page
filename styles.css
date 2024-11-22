@@ -1,3 +1,4 @@
+/* Setting padding and margin to 0 to get better alingment measures */
 body {
   padding: 0;
   margin: 0;
@@ -9,6 +10,7 @@ div {
   margin: 0;
 }
 
+/* Styles for the Header as well as the hero section */
 .hero-section {
   background-color: #1F2937;
   color: #e5e7eb;
@@ -66,4 +68,39 @@ div {
   padding: 8px 24px;
   border-radius: 8px;
   margin-top:12px;
+}
+
+/* Styles for the information section */
+.information-section {
+  padding-bottom: 80px;
+}
+.info-heading{
+  text-align: center;
+  font-weight: 900;
+  font-size: 36px;
+  color: #1f2937;
+  padding: 36px;
+}
+
+.info-cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+}
+
+.info-card{
+  width: 150px;
+  text-align: center;
+  color: #00000080;
+  font-size: 16px;
+}
+.info-image-box {
+  height: 150px;
+  width: 150px;
+  border: 4px solid #3882f6;
+  border-radius: 16px;
+}
+
+.info-text {
+  padding: 8px 0 0 0;
 }
